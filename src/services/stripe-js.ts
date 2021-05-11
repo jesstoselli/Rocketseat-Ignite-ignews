@@ -5,3 +5,8 @@ export async function getStripeJS() {
 
   return stripeJS;
 }
+
+/**
+ * This Stripe setup is done for Stripe to communicate with the API Routes
+ * using the public key
+ **/

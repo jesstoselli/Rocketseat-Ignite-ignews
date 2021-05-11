@@ -8,3 +8,8 @@ export const stripe = new Stripe(process.env.STRIPE_API_KEY, {
     version,
   },
 });
+
+/**
+ * This Stripe setup is done for Stripe to communicate with the API Routes
+ * using the private key
+ **/
